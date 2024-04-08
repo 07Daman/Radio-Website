@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Transistor Radio | Feedback</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Link to external JavaScript file with defer attribute for asynchronous loading -->
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header section containing website title and navigation menu -->
+    <header>
+        <h1>Welcome to RadioRevolution</h1>
+        <nav>
+            <ul>
+                <!-- Navigation links to different pages of the website -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="company.html">Corporate Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content section -->
+    <main>
+        <!-- Text describing the purpose of feedback and inviting users to join the conversation -->
+        <div class="text2">
+            <p>Welcome to the Radio Revolution community! We believe that sharing is caring, which is why we invite you
+                to
+                join the conversation and share your thoughts on our Transistor Radio. Whether you're a seasoned radio
+                enthusiast or a newcomer to the world of electronics, your feedback is invaluable to us.</p>
+            <p>Browse through reviews and testimonials from satisfied users to discover why our Transistor Radio is the
+                talk
+                of the town. From its exceptional performance to its sleek design, there's a lot to love about our
+                innovative device. Have a question or need assistance? Our dedicated support team is here to help. Leave
+                a
+                comment or reach out to us directly for personalized assistance.</p>
+            <p>Let's build a vibrant community around our shared love for cutting-edge technology and exceptional audio
+                quality. Your feedback helps us continue to improve and innovate, ensuring that your Radio Revolution
+                experience is nothing short of amazing. Join the conversation today and be part of the Radio Revolution!
+            </p>
+        </div>
+    </main>
+    <!-- Feedback section -->
+    <section class="feedback">
+        <!-- Title for the feedback section -->
+        <h2>Rate or Add Comments/Feedback</h2>
+        <!-- Form for users to submit feedback -->
+        <form id="feedbackForm">
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+            <!-- Star rating system -->
+            <div class="rating">
+                <span class="star" onclick="rate(1)">&#9733;</span>
+                <span class="star" onclick="rate(2)">&#9733;</span>
+                <span class="star" onclick="rate(3)">&#9733;</span>
+                <span class="star" onclick="rate(4)">&#9733;</span>
+                <span class="star" onclick="rate(5)">&#9733;</span>
+            </div>
+            <!-- Submit button -->
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <!-- Contact Information -->
+        <small><p>support@radiorev.com</p></small>
+        <small><p>(123)345-4567</p></small>
+        
+    <!-- Copyright information -->
+        <small><p>&copy; RadioRevolution. All rights reserved.</p></small>
+    </footer>
+</body>
+
+</html>
